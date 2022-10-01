@@ -9,7 +9,7 @@
 }
 
 @keyframes body {
-    from {opacity: 0%; background-color: white;}
+    from {opacity: 0%; background-color: grey;}
     to {opacity: 100%; background-color: rgb(28, 28, 28);}
 }
 
