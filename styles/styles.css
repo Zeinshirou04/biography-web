@@ -1,0 +1,71 @@
+@font-face {
+    font-family: titleFont;
+    src: url(../assets/font/Mosk_Typeface/Mosk_Typeface/Mosk\ Bold\ 700.ttf);
+}
+
+@font-face {
+    font-family: isiFont;
+    src: url(../assets/font/Mosk_Typeface/Mosk_Typeface/Mosk\ Light\ 300.ttf);
+}
+
+@keyframes body {
+    from {opacity: 0%; background-color: white;}
+    to {opacity: 100%; background-color: rgb(28, 28, 28);}
+}
+
+@keyframes div {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+body {
+    color: white;
+    background-color: rgb(28, 28, 28);
+    animation-name: body;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.isiBody {
+    opacity: 0%;
+    animation-name: div;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+.boxCont1 {
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
+}
+
+.boxCont2 {
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+}
+
+.titlePage {
+    font-family: titleFont;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.subBab {
+    font-family: isiFont;
+    font-size: 20px;
+    /* text-align: justify; */
+}
+
+.isiParagraf2 {
+    font-family: isiFont;
+    font-size: 18px;
+    text-align: justify;
+}
+
+li {
+    font-family: isiFont;
+    font-size: 15px;
+    text-align: justify;
+}
