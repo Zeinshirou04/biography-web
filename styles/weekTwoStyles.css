@@ -16,10 +16,35 @@ body {
     background-color: burlywood;
 }
 
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.x-center {
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.y-center {
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .item {
     background-color: cyan;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin: 10px auto;
 }
 
@@ -38,6 +63,7 @@ body {
 ul {
     text-indent: -20px;
 }
+
 #firstParagraph {
     color: red;
     text-align: center;
@@ -45,10 +71,20 @@ ul {
     font-family: 'Mosk Typeface', 'Roboto', sans-serif;
     font-weight: bold;
 }
+
 #secondParagraph {
     color: blue;
     text-align: center;
     font-size: 30px;
+    font-family: 'Mosk Typeface', 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+a {
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
     font-family: 'Mosk Typeface', 'Roboto', sans-serif;
     font-weight: normal;
 }
