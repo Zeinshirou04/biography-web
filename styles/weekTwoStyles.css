@@ -1,0 +1,28 @@
+/* Ini adalah external CSS */
+
+body {
+    background-color: burlywood;
+}
+
+.item {
+    background-color: cyan;
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+}
+
+.item.kotak1 {
+    background-color: yellow;
+}
+
+.item.kotak2 {
+    background-color: black;
+}
+
+.item.kotak3 {
+    background-color: red;
+}
+
+ul {
+    text-indent: -20px;
+}

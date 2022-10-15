@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Biography Website to Fulfill BTNG Week 2 Works">
+    <meta name="keywords" content="Biography, Self, Udinus, DNCC, BTNG, Tugas, Minggu 2">
+    <meta name="author" content="Farras Adhani Zayn"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles/weekOneStyles.css">
+    <link rel="icon" type="image/png" href="assets/images/ico/download.ico">
+    <title>Self Biography Website | DNCC Web Division Training 2022</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="kaushanBold" id="judulWeb">My Biography</h1>
+        </header>
+    </div>
+    <div class="container flex">
+        <div class="boxContainer1">
+            <img id="profile-picture" src="assets/images/jpg/picture-profile.jpg" alt="Self Picture for Identity">
+        </div>
+        <div class="boxContainer2 flex">
+            <div class="childBoxContainer1">
+                <table class="textWhite biographyText moskFontRegular" id="Biography Data">
+                    <tr>
+                        <td>Nama</td>
+                        <td>:</td>
+                        <td>Farras Adhani Zayn</td>
+                    </tr>
+                    <tr>
+                        <td>Tempat Tgl Lahir</td>
+                        <td>:</td>
+                        <td>Sampit, 04 Februari 2004</td>
+                    </tr>
+                    <tr>
+                        <td>NIM</td>
+                        <td>:</td>
+                        <td>A11.2022.14698</td>
+                    </tr>
+                    <tr>
+                        <td>Kelamin</td>
+                        <td>:</td>
+                        <td>Pria / Laki - Laki</td>
+                    </tr>
+                    <tr>
+                        <td>Program Studi</td>
+                        <td>:</td>
+                        <td>Teknik Informatika</td>
+                    </tr>
+                    <tr>
+                        <td>Jenjang Pendidikan</td>
+                        <td>:</td>
+                        <td>Pelajar / Mahasiswa</td>
+                    </tr>
+                    <tr>
+                        <td>Alamat</td>
+                        <td>:</td>
+                        <td>Jl. Bima 2 No. 30, Pendirikan Kidul, Semarang</td>
+                    </tr>
+                    <tr>
+                        <td>Email Mahasiswa</td>
+                        <td>:</td>
+                        <td>111202214698@mhs.dinuc.ac.id</td>
+                    </tr>
+                    <tr>
+                        <td>Status Akademik</td>
+                        <td>:</td>
+                        <td>Aktif</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="descriptionBox">
+                <div class="childBoxContainer2 box">
+                    <p class="textWhite moskFontRegular" id="Deskripsi-Diri">My Short Description</p>
+                    <p class="textWhite moskFontRegular" id="Deskripsi-Diri">Hai!, Perkenalkan saya Farras. Pada tahun 2022 ini, saya telah mempelajari beberapa bahasa pemrograman. Contohnya ada Dart, Python, dan Javascript. Saya juga belajar dalam pengembangan Web, salah satu contoh pengembangan saya adalah yang anda lihat sekarang ini.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div>
+            <p class="textWhite moskFontRegular x-center">Follow Me On:</p>
+        </div>
+        <div class="row flex x-center" id="socialMediaBar">
+            <div>
+                <a href="https://stackoverflow.com/users/19965658/zeinshirou?tab=profile" target="_blank" title="Dev's Stackoverflow Profile">
+                    <img id="icon" src="assets/images/png/stackoverflow-64.png" alt="Stackoverflow Icon">
+                </a>
+            </div>
+            <div id="middleIcon">
+                <a href="https://www.instagram.com/zeinshirou/?next=%2F" target="_blank" title="Dev's Instagram Profile">
+                    <img class="middleIcon" id="instaIcon" src="assets/images/png/[CITYPNG.COM]HD White Outline Round Instagram Logo Icon PNG - 1600x1600.png" alt="Instagram Icon">
+                </a>
+            </div>
+            <div>
+                <a href="https://github.com/Zeinshirou04" target="_blank" title="Dev's Github Profile">
+                    <img id="icon" src="assets/images/png/github-logo.png" alt="Stackoverflow Icon">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="music">
+        <audio src="./assets/audio/LoFi Chill 5 Minute.mp3" id="bgm"></audio>
+    </div>
+</body>
+<script>
+    var pageWidth = window.innerWidth;
+    var pageHeight = window.innerHeight;
+    var bgm = document.getElementById("bgm");
+    
+    bgm.volume = 0.03;
+    bgm.autoplay = true;
+    bgm.loop = true;
+
+    console.log("Current page width is ", pageWidth);
+    console.log("Current page height is ", pageHeight);
+</script>
+</html>

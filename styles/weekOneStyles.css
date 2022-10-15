@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'Mosk Typeface-Bold';
+    src: url(../assets/font/Mosk_Typeface/Mosk_Typeface/Mosk\ Bold\ 700.ttf);
+}
+
+@font-face {
+    font-family: 'Mosk Typeface-Light';
+    src: url(../assets/font/Mosk_Typeface/Mosk_Typeface/Mosk\ Light\ 300.ttf);
+}
+
+@font-face {
+    font-family: 'Mosk Typeface-Regular';
+    src: url(../assets/font/Mosk_Typeface/Mosk_Typeface/Mosk\ Normal\ 400.ttf);
+}
+
+@font-face {
+    font-family: 'Kaushan Bold';
+    font-weight: bold;
+    src: url(../assets/font/Kaushan_Script/KaushanScript-Regular.ttf);
+}
+
+@keyframes bodyTransition {
+    from {opacity: 0%; background-color: rgb(75, 75, 75);}
+    to {opacity: 100%; background-color: rgb(30, 30, 30);}
+}
+
+@keyframes mainDivTransition {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+body {
+    width: 1520px;
+    color: white;
+    background-color: rgb(75, 75, 75);
+    animation-name: bodyTransition;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.x-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.y-center {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+}
+
+.box {
+    border: 1px solid rgb(46, 46, 46);
+    border-radius: 4px;
+    background-color: rgb(46, 46, 46);
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+#icon {
+    width: 32px;
+}
+
+#socialMediaBar {
+    padding-top: 2px;
+}
+
+.container {
+    flex-direction: row;
+    opacity: 0%;
+    animation-name: mainDivTransition;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.boxContainer1 {
+    float: left;
+    margin-left: 256px;
+    margin-right: 64px;
+    padding: 2px;
+}
+
+.boxContainer2 {
+    flex-direction: column;
+    float: right;
+    margin-top: 2px;
+}
+
+.textWhite {
+    color: white;
+}
+
+.biographyText {
+    font-size: 20px;
+}
+
+.moskFontBold {
+    font-family: 'Mosk Typeface-Bold';
+}
+
+.moskFontRegular {
+    font-family: 'Mosk Typeface-Regular';
+}
+
+.moskFontLight {
+    font-family: 'Mosk Typeface-Light';
+}
+
+.kaushanBold {
+    font-family: 'Kaushan Bold';
+}
+
+#judulWeb {
+    margin-top: 15px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.heading1 {
+    padding-left: 48;
+}
+
+#profile-picture {
+    width: 428px;
+    margin-top: 2px;
+}
+
+.childBoxContainer1 {
+    float: top;
+    width: 564px;
+}
+
+.childBoxContainer2 {
+    float: bottom;
+    width: 564px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 4px;
+}
+
+#descriptionBox {
+    padding-top: 12px;
+}
+
+.navContainer {
+    margin-top: 12px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.tripleStrip {
+    flex-direction: column;
+    column-count: 3;
+}
+
+.centerStrip { 
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#topStrip {
+    border: 2px solid grey;
+    border-radius: 4px;
+    width: 43px;
+    height: 6px;
+}
+
+#centerStrip {
+    border: 2px solid grey;
+    border-radius: 4px;
+    width: 43px;
+    height: 6px;
+}
+
+#bottomStrip {
+    border: 2px solid grey;
+    border-radius: 4px;
+    width: 43px;
+    height: 6px;
+}
+
+#Deskripsi-Diri {
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 24px;
+}
+
+#instaIcon {
+    width: 37px;
+}
+
+.middleIcon {
+    padding-left: 12px;
+    padding-right: 12px;
+}
