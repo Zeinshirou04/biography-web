@@ -1,5 +1,15 @@
 /* Ini adalah external CSS */
 
+@font-face {
+    font-family: 'Mosk Typeface';
+    src: url(/assets/font/Mosk_Typeface/Mosk_Typeface/Mosk\ Normal\ 400.ttf);
+}
+
+@font-face {
+    font-family: 'Audrey';
+    src: url(/assets/font/Audrey/Audrey/Audrey-Normal.otf);
+}
+
 body {
     background-color: burlywood;
 }
@@ -25,4 +35,18 @@ body {
 
 ul {
     text-indent: -20px;
+}
+#firstParagraph {
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Mosk Typeface', 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#secondParagraph {
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Mosk Typeface', 'Courier New', Courier, monospace;
+    font-weight: normal;
 }
