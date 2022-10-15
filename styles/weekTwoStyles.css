@@ -1,5 +1,7 @@
 /* Ini adalah external CSS */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 @font-face {
     font-family: 'Mosk Typeface';
     src: url(/assets/font/Mosk_Typeface/Mosk_Typeface/Mosk\ Normal\ 400.ttf);
@@ -40,13 +42,13 @@ ul {
     color: red;
     text-align: center;
     font-size: 30px;
-    font-family: 'Mosk Typeface', 'Courier New', Courier, monospace;
+    font-family: 'Mosk Typeface', 'Roboto', sans-serif;
     font-weight: bold;
 }
 #secondParagraph {
     color: blue;
     text-align: center;
     font-size: 30px;
-    font-family: 'Mosk Typeface', 'Courier New', Courier, monospace;
+    font-family: 'Mosk Typeface', 'Roboto', sans-serif;
     font-weight: normal;
 }
